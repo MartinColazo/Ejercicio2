@@ -1,0 +1,29 @@
+{
+  "name": "t04",
+  "version": "1.0.0",
+  "description": "\"# Ejercicio2\" \r Repositorio para Ejercicio3\r Instrucciones para usar NPM / GULP\r Instalar NodeJs\r https://nodejs.org/es/\r Si no se instalo GULP previamente\r npm install gulp-cli -g\r Instalar node_modules en el proyecto\r npm install gulp -D\r Istalar Plugin para GULP\r npm install gulp-inline-css\r #### Para iniciar\r https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md",
+  "main": "index.js",
+  "dependencies": {
+    "angular-material": "http://github.com/angular/bower-material/tarball/master",
+    "gulp": "^3.9.1",
+    "gulp-inline-css": "^3.1.0"
+  },
+  "devDependencies": {
+    "gulp-cssmin": "^0.2.0",
+    "gulp-style-inject": "^0.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinColazo/Ejercicio2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartinColazo/Ejercicio2/issues"
+  },
+  "homepage": "https://github.com/MartinColazo/Ejercicio2#readme"
+}
