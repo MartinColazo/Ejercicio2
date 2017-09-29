@@ -1,29 +1,32 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-      <!-- inject-style src="./path/file.css" -->
+<html lang = "en">
+   <head>
+      <link rel = "stylesheet"
+         href = "https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
+      <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+      <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+      <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
+      <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
+      <script src = "https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
 
-  </head>
-  <body>
-    <div ng-controller="AppCtrl" ng-cloak>
-<md-content>
+      <script type = "text/javascript">
+         angular.module('firstApplication', ['ngMaterial']);
+      </script>
+   </head>
 
-  <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-    <md-button>{{title1}}</md-button>
-    <md-button md-no-ink class="md-primary">Primary (md-noink)</md-button>
-    <md-button ng-disabled="true" class="md-primary">Disabled</md-button>
-    <md-button class="md-warn">{{title4}}</md-button>
-    <div class="label">Flat</div>
-  </section>
+   <body ng-app = "firstApplication" ng-cloak>
+      <md-toolbar class = "md-warn">
+         <div class = "md-toolbar-tools">
+            <h2 class = "md-flex">Titulo Principal</h2>
+         </div>
+      </md-toolbar>
 
-  <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-    <md-button class="md-raised">Button</md-button>
-    <md-button class="md-raised md-primary">Primary</md-button>
-    <md-button ng-disabled="true" class="md-raised md-primary">Disabled</md-button>
-    <md-button class="md-raised md-warn">Warn</md-button>
-    <div class="label">Raised</div>
-  </section>
-  </body>
+      <md-content flex layout-padding>
+         <p>Hola</p>
+
+         <p>Hola</p>
+
+         <p>Hola</p>
+      </md-content>
+   </body>
 </html>
